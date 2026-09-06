@@ -24,10 +24,10 @@
 
         </activity>
 
-        <service
-            android:name=".SpideyService"
-            android:exported="false"
-            android:foregroundServiceType="microphone" />
+      <service
+    android:name=".SpideyService"
+    android:exported="false"
+    android:foregroundServiceType="microphone" />
 
     </application>
 
