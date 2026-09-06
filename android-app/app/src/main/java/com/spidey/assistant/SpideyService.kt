@@ -36,6 +36,9 @@ class SpideyService : Service() {
             text = "🕷️"
             textSize = 34f
             setPadding(20, 20, 20, 20)
+     setOnClickListener {
+    text = if (text == "🕷️") "🕷️ Hey! I'm Spidey!" else "🕷️"
+     }
         }
 
         val type =
